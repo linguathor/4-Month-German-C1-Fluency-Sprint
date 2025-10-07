@@ -121,13 +121,13 @@ export default function Header() {
               >
                 FAQ
               </a>
-              <a
-                href="https://www.copecart.com/products/4f9cc412/checkout"
-                className="block py-3 mt-4 text-center text-white bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 rounded-lg font-bold transition-all shadow-md"
+              <button
+                className="block py-3 mt-4 text-center text-white bg-gradient-to-r from-primary-600 to-primary-700 opacity-75 cursor-default rounded-lg font-bold transition-all shadow-md w-full"
+                disabled
                 onClick={() => setIsMenuOpen(false)}
               >
-                Jetzt anmelden
-              </a>
+                Anmeldung vom 13. bis 20. Oktober
+              </button>
             </div>
           </nav>
         )}

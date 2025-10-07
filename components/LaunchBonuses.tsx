@@ -87,9 +87,9 @@ export function LaunchBonuses({ title, summary, deadline, bonuses }: LaunchBonus
 
         {/* CTA */}
         <div className="text-center">
-          <MagneticButton href="https://YOUR_COPECART_LINK_PREMIUM">
-            <span className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-12 py-4 text-lg font-semibold shadow-xl rounded-lg transition-all duration-300 inline-block">
-              Start der Anmeldung 13.Oktober
+          <MagneticButton href="">
+            <span className="bg-gradient-to-r from-orange-500 to-red-500 opacity-75 cursor-default text-white px-12 py-4 text-lg font-semibold shadow-xl rounded-lg transition-all duration-300 inline-block">
+              Anmeldung vom 13. bis 20. Oktober
             </span>
           </MagneticButton>
         </div>

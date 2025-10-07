@@ -312,8 +312,8 @@ export default function GermanAIAcademyPage() {
           showCta={true}
           ctaTitle="Lerne von den Besten"
           ctaSubtitle="Professionelle Coaches mit jahrelanger Erfahrung warten auf dich."
-          ctaLabel="Jetzt anmelden"
-          ctaHref="https://www.copecart.com/products/4f9cc412/checkout"
+          ctaLabel="Anmeldung vom 13. bis 20. Oktober"
+          ctaHref=""
         />
         </div>
 
@@ -366,8 +366,8 @@ export default function GermanAIAcademyPage() {
             <p className="text-xl text-neutral-600 max-w-2xl mx-auto mb-8">
               Starte jetzt deinen 4-monatigen C1-Fluency Sprint und sichere dir deinen Platz.
             </p>
-            <MagneticButton href="https://www.copecart.com/products/4f9cc412/checkout">
-              Start der Anmeldung 13.Oktober
+            <MagneticButton href="">
+              Anmeldung vom 13. bis 20. Oktober
             </MagneticButton>
           </div>
         </section>

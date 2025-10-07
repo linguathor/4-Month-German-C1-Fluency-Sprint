@@ -293,7 +293,7 @@ export default function GermanAIAcademyPage() {
               Starte jetzt deinen 4-monatigen C1-Fluency Sprint und sichere dir deinen Platz.
             </p>
             <MagneticButton href="https://www.copecart.com/products/4f9cc412/checkout">
-              Jetzt anmelden
+              Start der Anmeldung 13.Oktober
             </MagneticButton>
           </div>
         </section>

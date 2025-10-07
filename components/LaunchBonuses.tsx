@@ -89,13 +89,9 @@ export function LaunchBonuses({ title, summary, deadline, bonuses }: LaunchBonus
         <div className="text-center">
           <MagneticButton href="https://YOUR_COPECART_LINK_PREMIUM">
             <span className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-12 py-4 text-lg font-semibold shadow-xl rounded-lg transition-all duration-300 inline-block">
-              🚀 Jetzt anmelden
+              Start der Anmeldung 13.Oktober
             </span>
           </MagneticButton>
-          
-          <p className="text-sm text-gray-500 mt-4">
-            * Bonus nur für Anmeldungen bis {deadline.split(' ').slice(-3).join(' ')}
-          </p>
         </div>
       </div>
     </div>

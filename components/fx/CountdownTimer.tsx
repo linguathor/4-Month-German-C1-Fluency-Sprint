@@ -64,7 +64,7 @@ export default function CountdownTimer({ targetDate, className = "" }: Countdown
       <div className="text-center">
         <p className="text-primary-800 font-bold text-xl flex items-center justify-center gap-3">
           <span className="text-3xl animate-pulseSoft">⏰</span>
-          Anmeldung schließt am 13. Oktober
+          Anmeldung schließt am 20. Oktober
         </p>
         <p className="text-primary-600 font-medium text-base mt-2">
           Sichere dir jetzt deinen Platz

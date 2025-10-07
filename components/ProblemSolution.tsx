@@ -130,7 +130,7 @@ export default function ProblemSolution() {
             {/* Call to Action */}
             <div className="pt-4">
               <MagneticButton href="https://www.copecart.com/products/4f9cc412/checkout">
-                Jetzt anmelden
+                Start der Anmeldung 13.Oktober
               </MagneticButton>
             </div>
           </div>

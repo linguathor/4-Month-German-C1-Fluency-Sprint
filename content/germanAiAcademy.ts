@@ -11,7 +11,7 @@ export const academy = {
   hero: {
     h1: "4-monatiger C1-Fluency Sprint",
     sub: "Idealer Mix aus KI-Tutoring und menschlicher Expertise und Begleitung",
-    ctaPrimary: { label: "Jetzt anmelden", href: "https://www.copecart.com/products/4f9cc412/checkout" },
+    ctaPrimary: { label: "Start der Anmeldung 13.Oktober", href: "https://www.copecart.com/products/4f9cc412/checkout" },
     badges: ["Für Deutschlernende ab B2-Niveau", "Ohne Risiko starten", "Kurze, klare Aufgaben"],
     audienceBadge: "Für Deutschlernende ab B2-Niveau",
     urgency: {

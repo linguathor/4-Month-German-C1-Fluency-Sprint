@@ -15,7 +15,7 @@ export const academy = {
     badges: ["Für Deutschlernende ab B2-Niveau", "Ohne Risiko starten", "Kurze, klare Aufgaben"],
     audienceBadge: "Für Deutschlernende ab B2-Niveau",
     urgency: {
-      spotsLeft: 25,
+      spotsLeft: 22,
       cohortStartDate: "2025-10-15",
       enrolledToday: 5
     }
@@ -426,7 +426,7 @@ export const academy = {
   launchBonuses: {
     title: "Exklusive Launch-Boni",
     summary: "Starte bis zum 20. Oktober und erhalte diese wertvollen Zusätze kostenlos dazu",
-    deadline: "Nur bis 20. Oktober 2024",
+    deadline: "Nur bis 20. Oktober 2025",
     bonuses: [
       {
         title: "Wöchentliche Übungspläne",
@@ -446,8 +446,8 @@ export const academy = {
   limitedTimeBonus: {
     badge: "🎁 Exklusiver Bonus",
     headline: "Sichere dir jetzt deinen Bonus!",
-    deadline: "13. Oktober",
-    deadlineDate: "2025-10-13T23:59:59",
+    deadline: "20. Oktober",
+    deadlineDate: "2025-10-20T23:59:59",
     title: "Wöchentliche Übungspläne für mehr Effizienz & Struktur",
     description: "Wir erstellen dir persönliche, <strong class=\"font-semibold text-orange-700\">wöchentliche Lernpfade</strong>, die deine Fortschritte maximieren und genau auf deine Ziele abgestimmt sind. So weißt du immer, welche Übungen und Calls <strong class=\"font-semibold text-orange-700\">Priorität haben</strong>.",
     ctaText: "Anmeldung vom 13. bis 20. Oktober",

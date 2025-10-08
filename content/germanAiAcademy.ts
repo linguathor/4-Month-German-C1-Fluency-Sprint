@@ -17,7 +17,7 @@ export const academy = {
     urgency: {
       spotsLeft: 22,
       cohortStartDate: "2025-10-15",
-      enrolledToday: 5
+      enrolledToday: 8
     }
   },
 

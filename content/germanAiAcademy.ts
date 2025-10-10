@@ -420,7 +420,14 @@ export const academy = {
         popular: false,
         legal: "inkl. MwSt. • Bewerbung erforderlich"
       }
-    ]
+    ],
+    strategyCall: {
+      title: "Unsicher? Zweifel? Noch Fragen?",
+      message: "Lass uns telefonieren! Buch dir jetzt dein Strategiegespräch und lass uns schauen, ob unser C1 Fluency Sprint das Richtige für dich ist!",
+      ctaLabel: "Strategiegespräch buchen",
+      ctaHref: "https://calendly.com/goldbecherflemming/strategiegesprach-mit-flemming",
+      subtext: "Kostenlos & unverbindlich"
+    }
   },
 
   launchBonuses: {

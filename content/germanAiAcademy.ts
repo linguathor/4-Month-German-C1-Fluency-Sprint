@@ -11,13 +11,13 @@ export const academy = {
   hero: {
     h1: "4-monatiger C1-Fluency Sprint",
     sub: "Idealer Mix aus KI-Tutoring und menschlicher Expertise und Begleitung",
-    ctaPrimary: { label: "Anmeldung vom 13. bis 20. Oktober", href: "" },
+    ctaPrimary: { label: "Jetzt anmelden", href: "https://www.copecart.com/products/4f9cc412/checkout" },
     badges: ["Für Deutschlernende ab B2-Niveau", "Ohne Risiko starten", "Kurze, klare Aufgaben"],
     audienceBadge: "Für Deutschlernende ab B2-Niveau",
     urgency: {
-      spotsLeft: 21,
+      spotsLeft: 20,
       cohortStartDate: "2025-10-15",
-      enrolledToday: 9
+      enrolledToday: 10
     }
   },
 
@@ -244,7 +244,7 @@ export const academy = {
   accountability: {
     title: "Wöchentliche Mikro-Aufgaben",
     blurb: "Kurze Motivation und eine kleine Aufgabe pro Woche per E-Mail oder Telegram.",
-    cta: { label: "Anmeldung vom 13. bis 20. Oktober", href: "" }
+    cta: { label: "Jetzt anmelden", href: "https://www.copecart.com/products/4f9cc412/checkout" }
   },
 
   aiPlan: {
@@ -327,7 +327,7 @@ export const academy = {
     summary: "Start in wenigen Wochen. Begrenzte Plätze.",
     start: "Oktober 2025",
     seats: "Begrenzte Plätze. Warteliste empfohlen.",
-    cta: { label: "Anmeldung vom 13. bis 20. Oktober", href: "" }
+    cta: { label: "Jetzt anmelden", href: "https://www.copecart.com/products/4f9cc412/checkout" }
   },
 
   instructors: {
@@ -401,7 +401,7 @@ export const academy = {
           "Materialien nach jedem Call",
           "Gratis Verlängerung bei Zielverfehlung"
         ],
-        cta: { label: "Anmeldung vom 13. bis 20. Oktober", href: "" },
+        cta: { label: "Jetzt anmelden", href: "https://www.copecart.com/products/4f9cc412/checkout" },
         popular: true,
         legal: "inkl. MwSt. • Einmalzahlung"
       },
@@ -416,7 +416,7 @@ export const academy = {
           "Persönlicher Chat",
           "Sehr limitiert"
         ],
-        cta: { label: "Anmeldung vom 13. bis 20. Oktober", href: "" },
+        cta: { label: "Jetzt anmelden", href: "https://www.copecart.com/products/4f9cc412/checkout" },
         popular: false,
         legal: "inkl. MwSt. • Bewerbung erforderlich"
       }
@@ -457,8 +457,8 @@ export const academy = {
     deadlineDate: "2025-10-20T23:59:59",
     title: "Wöchentliche Übungspläne für mehr Effizienz & Struktur",
     description: "Wir erstellen dir persönliche, <strong class=\"font-semibold text-orange-700\">wöchentliche Lernpfade</strong>, die deine Fortschritte maximieren und genau auf deine Ziele abgestimmt sind. So weißt du immer, welche Übungen und Calls <strong class=\"font-semibold text-orange-700\">Priorität haben</strong>.",
-    ctaText: "Anmeldung vom 13. bis 20. Oktober",
-    ctaHref: "",
+    ctaText: "Jetzt anmelden",
+    ctaHref: "https://www.copecart.com/products/4f9cc412/checkout",
     features: [
       "Personalisierte Lernpfade basierend auf deinen Fortschritten",
       "Klare Priorisierung von Übungen und Calls",
@@ -494,8 +494,8 @@ export const academy = {
         metric: "Regelmäßig aktiv"
       }
     ],
-    ctaText: "Anmeldung vom 13. bis 20. Oktober",
-    ctaHref: ""
+    ctaText: "Jetzt anmelden",
+    ctaHref: "https://www.copecart.com/products/4f9cc412/checkout"
   },
 
   testimonials: {

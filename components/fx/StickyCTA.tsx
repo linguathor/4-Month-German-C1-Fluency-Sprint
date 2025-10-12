@@ -74,7 +74,7 @@ export default function StickyCTA({ ctaText, ctaHref, spotsLeft }: StickyCTAProp
                       {/* Mobile: shorter text with bonus */}
                       <span className="sm:hidden">🎁 Bonus | {spotsLeft} Plätze</span>
                       {/* Desktop: full text with bonus */}
-                      <span className="hidden sm:inline">🎁 Bonus bis 13. Okt | Nur noch {spotsLeft} Plätze</span>
+                      <span className="hidden sm:inline">🎁 Jetzt mit Bonus | Nur noch {spotsLeft} Plätze</span>
                     </>
                   ) : showGuarantee ? (
                     <>

@@ -134,8 +134,8 @@ export default function CallProgram({
           </div>
           
           {/* CTA */}
-          <MagneticButton href="">
-            Anmeldung vom 13. bis 20. Oktober
+          <MagneticButton href="https://www.copecart.com/products/4f9cc412/checkout">
+            Jetzt anmelden
           </MagneticButton>
         </div>
     </div>

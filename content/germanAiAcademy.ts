@@ -17,7 +17,11 @@ export const academy = {
     urgency: {
       spotsLeft: 20,
       cohortStartDate: "2025-10-15",
-      enrolledToday: 10
+      enrolledToday: 10,
+      countdown: {
+        deadline: "2025-10-20T23:59:59",
+        text: "Anmeldung endet in:"
+      }
     }
   },
 

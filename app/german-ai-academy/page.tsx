@@ -6,6 +6,7 @@ import { academy } from '../../content/germanAiAcademy';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import CountdownBanner from '../../components/CountdownBanner';
 
 import Hero from '../../components/Hero';
 import ReachableStatus from '../../components/ReachableStatus';
@@ -150,6 +151,14 @@ export default function GermanAIAcademyPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(courseInstanceSchema) }}
       />
+
+      {/* Countdown Banner - Sticky at top */}
+      {academy.hero.urgency.countdown && (
+        <CountdownBanner 
+          deadline={academy.hero.urgency.countdown.deadline}
+          text={academy.hero.urgency.countdown.text}
+        />
+      )}
 
       <Header />
 

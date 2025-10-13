@@ -31,7 +31,13 @@ export default function Pricing({ pricing }: PricingProps) {
         <h2 id="pricing-title" className="text-3xl md:text-4xl font-bold text-center mb-4">
           {pricing.title}
         </h2>
-        <p className="text-center text-gray-600 mb-12">{pricing.note}</p>
+        <p className="text-center text-gray-600 mb-4">{pricing.note}</p>
+        
+        {/* Start Date */}
+        <p className="text-center text-lg font-semibold text-gray-700 mb-12">
+          Unser Fluency Sprint startet ab November 2025
+        </p>
+        
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {pricing.plans.map((plan, index) => (
             <PriceCard key={index} plan={plan} />

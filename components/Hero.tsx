@@ -95,6 +95,11 @@ export default function Hero() {
               Live-Coaching
             </li>
           </ul>
+
+          {/* Start Date */}
+          <p className="mt-6 text-center text-lg font-semibold text-gray-700">
+            Unser Fluency Sprint startet ab November 2025
+          </p>
         </div>
       </div>
     </header>

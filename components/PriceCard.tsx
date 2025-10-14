@@ -8,6 +8,8 @@ interface PriceCardProps {
     features: readonly string[];
     cta: { label: string; href: string };
     popular: boolean;
+    legal?: string;
+    paymentNote?: string;
     image?: { src: string; alt: string; width: number; height: number };
   };
 }
@@ -22,7 +24,15 @@ export default function PriceCard({ plan }: PriceCardProps) {
       )}
       <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
       <p className="text-3xl font-semibold text-[#229DD1] mb-1">{plan.priceNote}</p>
-      <p className="text-gray-600 mb-6">{plan.period}</p>
+      <p className="text-gray-600 mb-2">{plan.period}</p>
+      {plan.paymentNote && (
+        <div className="mb-6">
+          <p className="text-red-600 font-bold text-sm bg-red-50 py-2 px-4 rounded-lg border-2 border-red-200 inline-block">
+            ✓ {plan.paymentNote}
+          </p>
+        </div>
+      )}
+      {!plan.paymentNote && <div className="mb-6"></div>}
       <ul className="mb-6 space-y-2">
         {plan.features.map((feature, index) => (
           <li key={index} className="flex items-center">

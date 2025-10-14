@@ -407,7 +407,8 @@ export const academy = {
         ],
         cta: { label: "Jetzt anmelden", href: "https://www.copecart.com/products/4f9cc412/checkout" },
         popular: true,
-        legal: "inkl. MwSt. • Einmalzahlung"
+        legal: "inkl. MwSt.",
+        paymentNote: "Auch in 2-4 Raten zahlbar"
       },
       {
         name: "C1-Masterclass",
@@ -420,9 +421,10 @@ export const academy = {
           "Persönlicher Chat",
           "Sehr limitiert"
         ],
-        cta: { label: "Jetzt anmelden", href: "https://www.copecart.com/products/4f9cc412/checkout" },
+        cta: { label: "Jetzt bewerben", href: "https://calendly.com/goldbecherflemming/strategiegesprach-mit-flemming" },
         popular: false,
-        legal: "inkl. MwSt. • Bewerbung erforderlich"
+        legal: "inkl. MwSt. • Bewerbung erforderlich",
+        paymentNote: "Auch in 2-4 Raten zahlbar"
       }
     ],
     strategyCall: {

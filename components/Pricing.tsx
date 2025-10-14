@@ -11,6 +11,8 @@ interface PricingProps {
       features: readonly string[];
       cta: { label: string; href: string };
       popular: boolean;
+      legal?: string;
+      paymentNote?: string;
       image?: { src: string; alt: string; width: number; height: number };
     }[];
     strategyCall?: {

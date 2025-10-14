@@ -15,9 +15,9 @@ export const academy = {
     badges: ["Für Deutschlernende ab B2-Niveau", "Ohne Risiko starten", "Kurze, klare Aufgaben"],
     audienceBadge: "Für Deutschlernende ab B2-Niveau",
     urgency: {
-      spotsLeft: 20,
+      spotsLeft: 10,
       cohortStartDate: "2025-10-15",
-      enrolledToday: 10,
+      enrolledToday: 20,
       countdown: {
         deadline: "2025-10-20T23:59:59",
         text: "Anmeldung endet in:"

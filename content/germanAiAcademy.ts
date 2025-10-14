@@ -395,7 +395,7 @@ export const academy = {
       {
         name: "4-monatiger C1 Fluency Sprint",
         priceNote: "990 € / 4 Monate",
-        period: "einmalig",
+        period: "",
         features: [
           "16 Live-Calls mit Coaching",
           "KI-Übungen mit Feedback",

@@ -53,18 +53,9 @@ export default function CountdownBanner({ deadline, text }: CountdownBannerProps
     return null;
   }
 
-  // Show expired message if countdown ended
+  // Hide completely if countdown ended
   if (!timeLeft) {
-    return (
-      <div className="sticky top-0 z-[60] bg-gradient-to-r from-gray-700 via-gray-800 to-gray-700 text-white shadow-lg">
-        <div className="max-w-screen-xl mx-auto px-4 py-4">
-          <div className="text-center">
-            <p className="font-bold text-base md:text-lg mb-1">Anmeldung geschlossen</p>
-            <p className="text-sm md:text-base">Die nächste Runde startet bald!</p>
-          </div>
-        </div>
-      </div>
-    );
+    return null;
   }
 
   return (

@@ -51,12 +51,7 @@ export default function CountdownTimer({ targetDate, className = "" }: Countdown
   }, [targetDate]);
 
   if (isExpired) {
-    return (
-      <div className={`bg-gradient-to-r from-gray-100 to-gray-200 border-2 border-gray-400 rounded-xl p-4 md:p-6 text-center shadow-lg ${className}`}>
-        <p className="text-gray-800 font-bold text-base md:text-lg mb-1">Anmeldung geschlossen</p>
-        <p className="text-gray-700 text-sm md:text-base font-medium">Die nächste Runde startet bald!</p>
-      </div>
-    );
+    return null;
   }
 
   return (

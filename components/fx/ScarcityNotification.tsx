@@ -26,7 +26,7 @@ export default function ScarcityNotification({ spotsLeft, enrolledToday, classNa
           <div className="flex items-center justify-center mb-2">
             <div className="w-3 h-3 bg-accent-500 rounded-full animate-pulseSoft mr-3"></div>
             <p className="text-accent-800 font-bold text-lg text-center">
-              Nur noch <span className="text-accent-600 font-extrabold text-xl">{spotsLeft} Plätze</span> verfügbar
+              Nur noch <span className="text-accent-600 font-extrabold text-xl">{spotsLeft} Plätze</span> verfügbar ‼️
             </p>
           </div>
 

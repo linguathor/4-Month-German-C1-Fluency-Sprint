@@ -113,8 +113,8 @@ export const metadata: Metadata = buildMetadata();
 export default function GermanAIAcademyPage() {
   const faqSchema = faqJsonLd(academy.faq.items);
   const productSchemas = productJsonLd(
-    academy.pricing.plans.find(plan => plan.popular)!,
-    academy.pricing.plans.find(plan => !plan.popular)!
+    academy.pricing.plans[0], // 4-monatiger C1 Fluency Sprint
+    academy.pricing.plans[1]  // C1-Masterclass
   );
 
   // Course JSON-LD

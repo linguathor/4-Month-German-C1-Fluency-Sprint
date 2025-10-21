@@ -405,7 +405,7 @@ export const academy = {
           "Materialien nach jedem Call",
           "Gratis Verlängerung bei Zielverfehlung"
         ],
-        cta: { label: "Ausgebucht", href: "" },
+        cta: { label: "Jetzt bewerben", href: "https://natural-fluent-german.kit.com/premium-programm" },
         popular: true,
         legal: "inkl. MwSt.",
         paymentNote: "Auch in 2-4 Raten zahlbar"
@@ -421,8 +421,8 @@ export const academy = {
           "Persönlicher Chat",
           "Sehr limitiert"
         ],
-        cta: { label: "Jetzt bewerben", href: "https://calendly.com/goldbecherflemming/strategiegesprach-mit-flemming" },
-        popular: false,
+        cta: { label: "Jetzt bewerben", href: "https://natural-fluent-german.kit.com/premium-programm" },
+        popular: true,
         legal: "inkl. MwSt. • Bewerbung erforderlich",
         paymentNote: "Auch in 2-4 Raten zahlbar"
       }

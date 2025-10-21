@@ -69,11 +69,11 @@ export default function StickyCTA({ ctaText, ctaHref, spotsLeft }: StickyCTAProp
                   <div className="absolute inset-0 w-2 h-2 bg-orange-400/30 rounded-full animate-ping" />
                 </div>
                 <p className="text-sm font-semibold bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">
-                  Fluency Sprint Ausgebucht
+                  Ausgebucht
                 </p>
               </div>
               <p className="text-xs text-gray-500 font-medium truncate">
-                Bewirb dich auf die C1-Masterclass
+                Jetzt bewerben
               </p>
             </div>
             <div className="flex-shrink-0">

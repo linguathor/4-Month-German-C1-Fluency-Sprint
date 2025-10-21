@@ -21,15 +21,15 @@ export default function ScarcityNotification({ spotsLeft, enrolledToday, classNa
   return (
     <div className={`animate-fade-in ${className}`}>
       {/* Enhanced spots remaining alert */}
-      <div className="bg-gradient-to-r from-red-50 to-red-100 border-2 border-red-400 rounded-xl p-3 sm:p-4 mb-4 shadow-lg">
-        <div className="flex flex-col items-center justify-center">
-          <div className="flex items-center justify-center mb-2">
-            <div className="w-2.5 sm:w-3 h-2.5 sm:h-3 bg-red-600 rounded-full animate-pulseSoft mr-2 sm:mr-3"></div>
-            <p className="text-red-800 font-bold text-base sm:text-lg text-center">
-              <span className="text-red-600 font-extrabold text-lg sm:text-xl">Ausgebucht</span>
-            </p>
+      <div className="bg-gradient-to-r from-red-500 to-red-600 rounded-2xl px-4 py-3 sm:px-6 sm:py-4 shadow-xl border-2 border-red-400">
+        <div className="flex items-center justify-center gap-2 sm:gap-3">
+          <div className="relative flex-shrink-0">
+            <div className="w-2 sm:w-2.5 h-2 sm:h-2.5 bg-white rounded-full animate-pulse"></div>
+            <div className="absolute inset-0 w-2 sm:w-2.5 h-2 sm:h-2.5 bg-white/50 rounded-full animate-ping"></div>
           </div>
-
+          <p className="text-white font-extrabold text-base sm:text-lg md:text-xl text-center leading-tight">
+            Ausgebucht
+          </p>
         </div>
       </div>
     </div>

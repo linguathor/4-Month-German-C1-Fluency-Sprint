@@ -11,7 +11,7 @@ export const academy = {
   hero: {
     h1: "4-monatiger C1-Fluency Sprint",
     sub: "Idealer Mix aus KI-Tutoring und menschlicher Expertise und Begleitung",
-    ctaPrimary: { label: "Jetzt anmelden", href: "https://natural-fluent-german.kit.com/premium-programm" },
+    ctaPrimary: { label: "Jetzt bewerben", href: "https://natural-fluent-german.kit.com/premium-programm" },
     badges: ["Für Deutschlernende ab B2-Niveau", "Ohne Risiko starten", "Kurze, klare Aufgaben"],
     audienceBadge: "Für Deutschlernende ab B2-Niveau",
     urgency: {
@@ -248,7 +248,7 @@ export const academy = {
   accountability: {
     title: "Wöchentliche Mikro-Aufgaben",
     blurb: "Kurze Motivation und eine kleine Aufgabe pro Woche per E-Mail oder Telegram.",
-    cta: { label: "Jetzt anmelden", href: "https://natural-fluent-german.kit.com/premium-programm" }
+    cta: { label: "Jetzt bewerben", href: "https://natural-fluent-german.kit.com/premium-programm" }
   },
 
   aiPlan: {
@@ -331,7 +331,7 @@ export const academy = {
     summary: "Start in wenigen Wochen. Begrenzte Plätze.",
     start: "Oktober 2025",
     seats: "Begrenzte Plätze. Warteliste empfohlen.",
-    cta: { label: "Jetzt anmelden", href: "https://natural-fluent-german.kit.com/premium-programm" }
+    cta: { label: "Jetzt bewerben", href: "https://natural-fluent-german.kit.com/premium-programm" }
   },
 
   instructors: {
@@ -405,7 +405,7 @@ export const academy = {
           "Materialien nach jedem Call",
           "Gratis Verlängerung bei Zielverfehlung"
         ],
-        cta: { label: "Jetzt anmelden", href: "https://natural-fluent-german.kit.com/premium-programm" },
+        cta: { label: "Jetzt bewerben", href: "https://natural-fluent-german.kit.com/premium-programm" },
         popular: true,
         legal: "inkl. MwSt.",
         paymentNote: "Auch in 2-4 Raten zahlbar"
@@ -463,7 +463,7 @@ export const academy = {
     deadlineDate: "2025-10-20T23:59:59",
     title: "Wöchentliche Übungspläne für mehr Effizienz & Struktur",
     description: "Wir erstellen dir persönliche, <strong class=\"font-semibold text-orange-700\">wöchentliche Lernpfade</strong>, die deine Fortschritte maximieren und genau auf deine Ziele abgestimmt sind. So weißt du immer, welche Übungen und Calls <strong class=\"font-semibold text-orange-700\">Priorität haben</strong>.",
-    ctaText: "Jetzt anmelden",
+    ctaText: "Jetzt bewerben",
     ctaHref: "https://natural-fluent-german.kit.com/premium-programm",
     features: [
       "Personalisierte Lernpfade basierend auf deinen Fortschritten",
@@ -500,7 +500,7 @@ export const academy = {
         metric: "Regelmäßig aktiv"
       }
     ],
-    ctaText: "Jetzt anmelden",
+    ctaText: "Jetzt bewerben",
     ctaHref: "https://natural-fluent-german.kit.com/premium-programm"
   },
 

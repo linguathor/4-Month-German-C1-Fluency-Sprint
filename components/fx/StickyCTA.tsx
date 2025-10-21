@@ -94,7 +94,7 @@ export default function StickyCTA({ ctaText, ctaHref, spotsLeft }: StickyCTAProp
             </div>
             <div className="flex-shrink-0">
               <MagneticButton href={ctaHref}>
-                <span className="text-sm sm:text-base font-bold px-2">Platz sichern</span>
+                <span className="text-sm sm:text-base font-bold px-2">Jetzt bewerben</span>
               </MagneticButton>
             </div>
           </div>

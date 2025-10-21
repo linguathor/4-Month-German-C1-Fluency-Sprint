@@ -405,7 +405,7 @@ export const academy = {
           "Materialien nach jedem Call",
           "Gratis Verlängerung bei Zielverfehlung"
         ],
-        cta: { label: "Jetzt bewerben", href: "https://natural-fluent-german.kit.com/premium-programm" },
+        cta: { label: "Ausgebucht", href: "" },
         popular: true,
         legal: "inkl. MwSt.",
         paymentNote: "Auch in 2-4 Raten zahlbar"

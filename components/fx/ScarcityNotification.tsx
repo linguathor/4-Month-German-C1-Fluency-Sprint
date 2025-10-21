@@ -32,18 +32,6 @@ export default function ScarcityNotification({ spotsLeft, enrolledToday, classNa
 
         </div>
       </div>
-
-      {/* Enhanced enrollment notification */}
-      {enrolledToday > 0 && (
-        <div className="bg-gradient-to-r from-success-50 to-success-100 border-2 border-success-300 rounded-xl p-4 shadow-soft">
-          <div className="flex items-center justify-center">
-            <div className="w-3 h-3 bg-success-500 rounded-full mr-3 animate-pulseSoft"></div>
-            <p className="text-success-800 font-semibold text-base text-center">
-              <span className="font-bold text-success-600">{enrolledToday} Personen</span> haben sich schon angemeldet
-            </p>
-          </div>
-        </div>
-      )}
     </div>
   );
 }

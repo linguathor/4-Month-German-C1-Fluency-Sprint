@@ -69,27 +69,11 @@ export default function StickyCTA({ ctaText, ctaHref, spotsLeft }: StickyCTAProp
                   <div className="absolute inset-0 w-2 h-2 bg-orange-400/30 rounded-full animate-ping" />
                 </div>
                 <p className="text-sm font-semibold bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">
-                  {showBonus ? (
-                    <>
-                      {/* Mobile: shorter text with bonus */}
-                      <span className="sm:hidden">🎁 Bonus | Ausgebucht</span>
-                      {/* Desktop: full text with bonus */}
-                      <span className="hidden sm:inline">🎁 Jetzt mit Bonus | Ausgebucht</span>
-                    </>
-                  ) : showGuarantee ? (
-                    <>
-                      {/* Mobile: shorter text */}
-                      <span className="sm:hidden">100% Garantie | Ausgebucht</span>
-                      {/* Desktop: full text */}
-                      <span className="hidden sm:inline">100% Garantie | Ausgebucht</span>
-                    </>
-                  ) : (
-                    <>Ausgebucht</>
-                  )}
+                  Fluency Sprint Ausgebucht
                 </p>
               </div>
               <p className="text-xs text-gray-500 font-medium truncate">
-                {showBonus ? 'Wöchentliche Übungspläne sichern' : showGuarantee ? 'Risikofrei starten' : 'Sichere deinen Platz jetzt'}
+                Bewirb dich auf die C1-Masterclass
               </p>
             </div>
             <div className="flex-shrink-0">

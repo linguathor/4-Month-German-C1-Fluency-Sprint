@@ -60,15 +60,15 @@ export default function StickyCTA({ ctaText, ctaHref, spotsLeft }: StickyCTAProp
         <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-amber-400/40 to-transparent" />
         
         <div className="max-w-md mx-auto">
-          <div className="flex items-center justify-between gap-4">
+          <div className="flex items-center justify-between gap-3 sm:gap-4">
             <div className="flex-1 min-w-0">
-              <div className="flex items-center mb-1.5">
+              <div className="flex items-center mb-1 sm:mb-1.5">
                 {/* Softer pulsing indicator */}
-                <div className="relative mr-2.5 flex-shrink-0">
+                <div className="relative mr-2 sm:mr-2.5 flex-shrink-0">
                   <div className="w-2 h-2 bg-gradient-to-br from-orange-400 to-red-500 rounded-full animate-pulse shadow-sm" />
                   <div className="absolute inset-0 w-2 h-2 bg-orange-400/30 rounded-full animate-ping" />
                 </div>
-                <p className="text-sm font-semibold bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">
+                <p className="text-xs sm:text-sm font-semibold bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">
                   Ausgebucht
                 </p>
               </div>
@@ -78,7 +78,7 @@ export default function StickyCTA({ ctaText, ctaHref, spotsLeft }: StickyCTAProp
             </div>
             <div className="flex-shrink-0">
               <MagneticButton href={ctaHref}>
-                <span className="text-sm sm:text-base font-bold px-2">Jetzt bewerben</span>
+                <span className="text-xs sm:text-sm md:text-base font-bold px-1.5 sm:px-2">Jetzt bewerben</span>
               </MagneticButton>
             </div>
           </div>

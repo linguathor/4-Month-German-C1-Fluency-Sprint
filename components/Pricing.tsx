@@ -28,19 +28,19 @@ interface PricingProps {
 
 export default function Pricing({ pricing }: PricingProps) {
   return (
-    <section className="py-16 px-4 bg-gradient-to-br from-white via-[#88B6CD]/5 to-white" aria-labelledby="pricing-title">
+    <section className="py-12 sm:py-16 px-4 bg-gradient-to-br from-white via-[#88B6CD]/5 to-white" aria-labelledby="pricing-title">
       <div className="max-w-screen-xl mx-auto">
-        <h2 id="pricing-title" className="text-3xl md:text-4xl font-bold text-center mb-4">
+        <h2 id="pricing-title" className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-3 sm:mb-4">
           {pricing.title}
         </h2>
-        <p className="text-center text-gray-600 mb-4">{pricing.note}</p>
+        <p className="text-center text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">{pricing.note}</p>
         
         {/* Start Date */}
-        <p className="text-center text-lg font-semibold text-gray-700 mb-12">
+        <p className="text-center text-base sm:text-lg font-semibold text-gray-700 mb-8 sm:mb-12">
           Unser Fluency Sprint startet ab November 2025
         </p>
         
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-6 sm:gap-8 max-w-4xl mx-auto">
           {pricing.plans.map((plan, index) => (
             <PriceCard key={index} plan={plan} />
           ))}

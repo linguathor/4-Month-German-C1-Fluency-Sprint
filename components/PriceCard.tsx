@@ -16,24 +16,24 @@ interface PriceCardProps {
 
 export default function PriceCard({ plan }: PriceCardProps) {
   return (
-    <div className={`bg-white rounded-lg shadow-lg p-6 border-2 ${plan.popular ? 'border-[#229DD1]' : 'border-gray-200'} relative hover:shadow-2xl transition-all duration-300 hover:scale-105`}>
+    <div className={`bg-white rounded-lg shadow-lg p-4 sm:p-6 border-2 ${plan.popular ? 'border-[#229DD1]' : 'border-gray-200'} relative hover:shadow-2xl transition-all duration-300 hover:scale-105`}>
       {plan.popular && (
-        <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-red-600 text-white px-4 py-1 rounded-full text-sm font-medium">
+        <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-red-600 text-white px-3 sm:px-4 py-1 rounded-full text-xs sm:text-sm font-medium whitespace-nowrap">
           Ausgebucht
         </div>
       )}
-      <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
-      <p className="text-3xl font-semibold text-[#229DD1] mb-1">{plan.priceNote}</p>
+      <h3 className="text-xl sm:text-2xl font-bold mb-2">{plan.name}</h3>
+      <p className="text-2xl sm:text-3xl font-semibold text-[#229DD1] mb-1">{plan.priceNote}</p>
       <p className="text-gray-600 mb-2">{plan.period}</p>
       {plan.paymentNote && (
-        <div className="mb-6">
-          <p className="text-red-600 font-bold text-sm bg-red-50 py-2 px-4 rounded-lg border-2 border-red-200 inline-block">
+        <div className="mb-4 sm:mb-6">
+          <p className="text-red-600 font-bold text-xs sm:text-sm bg-red-50 py-1.5 sm:py-2 px-3 sm:px-4 rounded-lg border-2 border-red-200 inline-block">
             ✓ {plan.paymentNote}
           </p>
         </div>
       )}
-      {!plan.paymentNote && <div className="mb-6"></div>}
-      <ul className="mb-6 space-y-2">
+      {!plan.paymentNote && <div className="mb-4 sm:mb-6"></div>}
+      <ul className="mb-4 sm:mb-6 space-y-2 text-sm sm:text-base">
         {plan.features.map((feature, index) => (
           <li key={index} className="flex items-center">
             <span className="text-green-500 mr-2 hover:scale-110 transition-transform duration-300">✓</span>
